@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(234, 126, 173);
+background: radial-gradient(circle, rgba(224, 56, 81, 0.74) 0%, rgba(255, 31, 240, 0.372) 100%);
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.musiccontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2 {
+    color: #000000; 
+}
+
+.music {
+    width: 45%; 
+    margin: 10px;
+}
+
+    .music img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        text-align: center;
+        -webkit-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+
+    .music h3 {
+        color: #000000; 
+        
+    }
+
+    .music p {
+        line-height: 1.6;
+        border-radius: 5px;
+        text-align: center;
+        -webkit-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 14px 16px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+
+a {
+    color: #000000; 
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+.contacts {
+    margin-top: 50px;
+}
+
+.contact-block {
+    display: inline-block;
+    width: 20%;
+    margin-right: 50px;
+}
+
+    .contact-block h4 {
+        color: #000000; 
+    }
+
